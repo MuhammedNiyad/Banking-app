@@ -1,14 +1,14 @@
 import { Image, StyleSheet, Platform, View, Text } from 'react-native';
 
-import { HelloWave } from '@/components/HelloWave';
-import ParallaxScrollView from '@/components/ParallaxScrollView';
-import { ThemedText } from '@/components/ThemedText';
-import { ThemedView } from '@/components/ThemedView';
+import { HelloWave } from '@/hooks/components/HelloWave';
+import ParallaxScrollView from '@/hooks/components/ParallaxScrollView';
+import { ThemedText } from '@/hooks/components/ThemedText';
+import { ThemedView } from '@/hooks/components/ThemedView';
 
 export default function HomeScreen() {
   return (
     <View>
-      <Text style={{ color: 'green' }}>Home</Text>
+      <Text style={{ color: 'green'}} className='text-2xl'>Home</Text>
     </View>
   );
 }
